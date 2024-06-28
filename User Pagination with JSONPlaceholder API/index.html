@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Pagination with JSONPlaceholder API</title>
+</head>
+<style>
+    .user-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .user-item {
+        border: 1px solid #ccc;
+        margin: 5px;
+        padding: 10px;
+    }
+    .pagination {
+        margin-top: 20px;
+    }
+    .pagination button {
+        margin: 2px;
+        padding: 5px 10px;
+    }
+    .pagination .active {
+        background-color: #007bff;
+        color: white;
+    }
+</style>
+<body>
+    <h1>User List</h1>
+    <ul id="user-list" class="user-list"></ul>
+    <div id="pagination" class="pagination"></div>
+    <script src="index.js"></script>
+</body>
+</html>

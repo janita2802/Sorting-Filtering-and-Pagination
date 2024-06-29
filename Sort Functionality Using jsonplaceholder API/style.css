@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    border: 1px solid #080808;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    width: 250px;
+    
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+}

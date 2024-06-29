@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Functionality Using jsonplaceholder API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Product List</h1>
+    <div id="sort">
+        <label for="sortSelect">Sort by: </label>
+        <select id="sortSelect">
+            <option value="name">Name</option>
+            <option value="id">ID</option>
+            <option value="city">City</option>
+        </select>
+        <button id="sortButton">Sort</button>
+    </div>
+    <ul id="product-list" class="product-list"></ul>
+    <div id="pagination" class="pagination"></div>
+    <script src="script.js"></script>
+</body>
+</html>
